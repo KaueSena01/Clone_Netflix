@@ -30,7 +30,7 @@ const API_KEY = '7dec57a4061f330743f4f25d4353665e';
 const API_BASE = 'https://api.themoviedb.org/3';
 ```
 
-* Returning a JSON with API information.
+* Returning a JSON with API information:
 
 ```
 const basicFetch = async (endpoint) => {
@@ -40,7 +40,7 @@ const basicFetch = async (endpoint) => {
 }
 ```
 
-* Processing all data
+* Processing all data:
 
 ```
 export default {
@@ -106,7 +106,7 @@ export default {
 },
 ```
 
-* Using "Switch" for cases of movies or TV shows
+* Using "Switch" for cases of movies or TV shows:
 
 ```
 getMovieInfo: async (movieId, type) => {
